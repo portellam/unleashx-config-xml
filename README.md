@@ -9,8 +9,8 @@
 - [7. Contact](#7-Contact)
 
 ## 1. About
-Softmod guide and custom config files for `UnleashX` dashboard for Original Xbox.
-Common sense backend changes, folder hierachy, and setting privileges.
+Original Xbox softmod guide and custom config files for `UnleashX` dashboard.
+Includes insights, recommendations, and common sense backend changes.
 
 ## 2. Softmod Guide
 This guide is not intended to replace existing guides (here), only to be an overview with comments by this repository's Author.
