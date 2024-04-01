@@ -32,21 +32,21 @@ Lorem ipsum
 Feel free to modify and take inspiration! You may view the official UnleashX documentation (here).
 
 ### 3.2. Default folder layouts are frustrating
-The default behavior of `UnleashX` does not have the ability to set a scan depth for folders. However, this is available on `XBMC`, or `Aurora` for Xbox 360.
+The default behavior of UnleashX does not have the ability to set a scan depth for folders. However, this is available on "XBMC", or "Aurora" for Xbox 360.
 
 Given common sense and FATX file system limitations, an organized user may feel the existing menu layouts and Rocky5 recommended folder schemes to be inadequate. Well, UnleashX was meant to be customized after-all. The Xbox softmod scene has plentiful amounts of software to boot (here). The number of Xbox retail games that exist will exceed the folder limitations defined in FATX (however, you may run out of partition space first). Let alone complete ROM sets with thousands of titles per console (or generation).
 
 The Author recommends the available folder layouts, as defined in the repository and in `config.xml`. 
 
-### 3.3. User privileges: Do not trust a guest.
+### 3.3. User Privileges: Never Trust a Guest
 The next best thing to providing an eager younger brother a disconnected Xbox controller, is to lock down attack vectors in your modifed Xbox console. Why bother? Because...
 
 Review the `config.xml` in this repository. You may notice sub menus regarding Formatting disks, Deleting data, Starting a file server (FTP).
 
-#### 3.3.a. XML tags
+#### 3.3.a. XML Tags
 Thankfully, the developer of UnleashX provides XML tags for declaring `protected` and `password`-locked sub menus. `protected` meaning the end user cannot make changes in the UnleashX dashboard itself. `password` meaning a defined text password is required to open the menu.
 
-#### 3.3.b. FTP settings
+#### 3.3.b. FTP Settings
 By default, the FTP server is set to disabled. The Author's reasoning is the fact the Xbox console is exposed to itself while playing online. This is possible over the LAN tunnelling software such as `XLink Kai`, however it is not known for the reverse-engineered Xbox LIVE replacement `Insignia` (here).
 
 The option to enable the server temporarily is available without a password lock. The option to permanently enable it is password locked in Settings.
@@ -81,8 +81,8 @@ Please refer to the recommended folder hierarchy. You may copy the layout in the
 
 **Tip:** For Xbox consoles with Solid State Drives (SSDs), you do not have to prioritize where data is stored.
 
-## 5. Storage media
-### 5.1. Data fragmentation
+## 5. Storage Media
+### 5.1. Data Fragmentation
 The Xbox console itself and homebrew software offer no ability to defragment data stored on the internal drive. This is not an issue for SSDs (here).
 
 For users with a HDD, it is recommended to refresh your data to avoid defragmentation (partitions `E:`, `F:`, and `G:`). Copy this data to a backup location (external drive) and organize it. 
@@ -93,7 +93,7 @@ Place lower-volume data first (example: apps, dashboards) first (earlier partiti
 
 The Author himself has multiple Xbox consoles and terabytes of storage. He has done this process before, but never tested this. Better safe than sorry.
 
-### 5.2. Power management issues and solutions
+### 5.2. Power Management Issue and Solution
 **Warning:** Use 5400 RPM HDDs, as higher speed disks will fail to accelerate to normal speed in time after Xbox console boot. Should you encounter this issue, immediately restart the Xbox console, as the disk is already started (similar to how it is easier to start a warm automobile engine).
 
 Power draw is not an issue for SSDs. SSDs are lower-powered, even at peak usage, than HDDs.
