@@ -24,12 +24,9 @@ Lorem ipsum
 ### 2.3. Gotchas
 Lorem ipsum
 
-### 2.4. Resources
-Lorem ipsum
-
 ## 3. `config.xml`
 ### 3.1. Customization
-Feel free to modify and take inspiration! You may view the official UnleashX documentation (here).
+Feel free to modify and take inspiration! You may view the official [UnleashX documentation](https://github.com/rizaumami/unleashx-manual/blob/main/UnleashX.md).
 
 ### 3.2. Default folder layouts are frustrating
 The default behavior of UnleashX does not have the ability to set a scan depth for folders. However, this is available on "XBMC", or "Aurora" for Xbox 360.
@@ -105,4 +102,4 @@ Lorem ipsum
 Lorem ipsum
 
 ## 7. Contact
-Lorem ipsum
+Did you encounter a bug? Do you need help? Notice any dead links? Please contact by raising an issue with the project itself.
