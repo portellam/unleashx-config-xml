@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UnleashX>
+	<Settings>
+		<MSDashBoard>C:\Xboxdash.xbe</MSDashBoard>
+		
+		<FTP Enable="No">
+			<User>xbox</User>
+			<Password>xbox</Password>
+			<Port>21</Port>
+			<MaxUsers>2</MaxUsers>
+			<AllowAnon>No</AllowAnon>
+			<Greeting>Welcome to XBOX FTP Server</Greeting>
+		</FTP>
+		
+		<Network Enable="Yes" Type="DHCP">
+			<IP>192.168.1.255</IP>
+			<Subnet>255.255.255.0</Subnet>
+			<Gateway>192.168.1.1</Gateway>
+			<DNS1>46.101.64.175</DNS1>
+			<DNS2>1.1.1.1</DNS2>
+		</Network>
+		
+		<Newsfeed Enable="False" Interval="30">
+			<URL>www.xbox-tribe.com/news.xml</URL>
+			<URL>www.xbox-tribe.com/files.xml</URL>
+		</Newsfeed>
+
+		<Password MaxTries="3"></Password>
+
+		<Preference>
+			<AbortOnError>Yes</AbortOnError>
+			<AudioCD AutoLaunch="Yes">C:\Xboxdash.xbe</AudioCD>
+			<AutoSetTime>Yes</AutoSetTime>
+			<AutoTurnOff>120</AutoTurnOff>
+			<AutoVideoMode MultiRegion="NTSC M" UsePAL60="No">Yes</AutoVideoMode>
+			<ContextMenu AllowItemEdit="Yes" AllowRecentList="Yes" AllowUninstall="Yes" LinkToSave="Yes" />
+			<Data AutoLaunch="Yes"></Data>
+			<DVD AutoLaunch="No">E:\media-players\default.xbe</DVD>
+			<EnableDriveF>Yes</EnableDriveF>
+			<EnableDriveG>Yes</EnableDriveG>
+			<FanSpeed>2.50</FanSpeed>
+			<Games AutoLaunch="No"></Games>
+			<LEDColor>Orange</LEDColor>
+			<LiveUpdate AutoCheck="No" />
+			<MusicVolume>0</MusicVolume>
+			
+			<ScreenSaver Wait="300">
+				<Text></Text>
+			</ScreenSaver>
+			
+			<Skin>Softmod</Skin>
+			<SNTP Synchronize="No">216.244.192.3</SNTP>
+			<SoundVolume>90</SoundVolume>
+			<UseFahrenheit>No</UseFahrenheit>
+
+			<VideoSettings EnableTextureCompression="Yes" FastRefresh="Yes" FilterLevel="1" Soften="No" Use16bit="False" Use480P="No" Use720P="No" UsePAL60="No" Widescreen="No"></VideoSettings>
+		</Preference>
+	</Settings>
+	<Menu>
+		<Item Action="LaunchDVD" Protected="On">Launch XBOX Game from DVD</Item>
+		<Item Action="C:\xboxdash.xbe">Launch XBOX Dashboard</Item>
+		
+		<List Text="Applications" Auto="On" Password="Xbox" Protected="On" Sort="On">
+			<Path>E:\Applications</Path>
+			<Path>F:\Applications</Path>
+			<Path>G:\Applications</Path>
+			<Path>E:\applications</Path>
+			<Path>F:\applications</Path>
+			<Path>G:\applications</Path>
+			<Path>E:\Apps</Path>
+			<Path>F:\Apps</Path>
+			<Path>G:\Apps</Path>
+			<Path>E:\apps</Path>
+			<Path>F:\apps</Path>
+			<Path>G:\apps</Path>
+			<Path>E:\Programs</Path>
+			<Path>F:\Programs</Path>
+			<Path>G:\Programs</Path>
+			<Path>E:\programs</Path>
+			<Path>F:\programs</Path>
+			<Path>G:\programs</Path>
+		</List>
+	
+		<List Text="Dashboards" Auto="On" Password="Xbox" Protected="On" Sort="On">
+			<Path>E:\Dashboards</Path>
+			<Path>F:\Dashboards</Path>
+			<Path>G:\Dashboards</Path>
+			<Path>E:\dashboards</Path>
+			<Path>F:\dashboards</Path>
+			<Path>G:\dashboards</Path>
+		</List>
+		
+		<List Text="Emulators" Auto="On" Protected="On" Sort="On">
+			<Path>E:\Emulators</Path>
+			<Path>F:\Emulators</Path>
+			<Path>G:\Emulators</Path>
+			<Path>E:\emulators</Path>
+			<Path>F:\emulators</Path>
+			<Path>G:\emulators</Path>
+		</List>
+		
+		<List Text="Games" Auto="On" Protected="On" Sort="Off">
+			<List Text="NTSC-U (Americas) Games" Auto="On" Protected="On" Sort="On">
+				<Path>E:\Retail-Games\NTSC-U</Path>
+				<Path>F:\Retail-Games\NTSC-U</Path>
+				<Path>G:\Retail-Games\NTSC-U</Path>
+				<Path>E:\retail-games\ntsc-u</Path>
+				<Path>F:\retail-games\ntsc-u</Path>
+				<Path>G:\retail-games\ntsc-u</Path>
+			</List>
+			
+			<List Text="NTSC-J (Asia) Games" Auto="On" Protected="On" Sort="On">
+				<Path>E:\Retail-Games\NTSC-J</Path>
+				<Path>F:\Retail-Games\NTSC-J</Path>
+				<Path>G:\Retail-Games\NTSC-J</Path>
+				<Path>E:\retail-games\ntsc-j</Path>
+				<Path>F:\retail-games\ntsc-j</Path>
+				<Path>G:\retail-games\ntsc-j</Path>
+			</List>
+			
+			<List Text="PAL (Europe) Games" Auto="On" Protected="On" Sort="On">
+				<Path>E:\Retail-Games\PAL</Path>
+				<Path>F:\Retail-Games\PAL</Path>
+				<Path>G:\Retail-Games\PAL</Path>
+				<Path>E:\retail-games\pal</Path>
+				<Path>F:\retail-games\pal</Path>
+				<Path>G:\retail-games\pal</Path>
+			</List>
+			
+			<List Text="Homebrew Games" Auto="On" Protected="On" Sort="On">
+				<Path>E:\Homebrew</Path>
+				<Path>F:\Homebrew</Path>
+				<Path>G:\Homebrew</Path>
+				<Path>E:\homebrew</Path>
+				<Path>F:\homebrew</Path>
+				<Path>G:\homebrew</Path>
+			</List>
+			
+			<List Text="Mods" Auto="On" Protected="On" Sort="Off">
+				<List Text="NTSC-U (Americas) Mods" Auto="On" Protected="On" Sort="On">
+					<Path>E:\Mods\NTSC-U</Path>
+					<Path>F:\Mods\NTSC-U</Path>
+					<Path>G:\Mods\NTSC-U</Path>
+					<Path>E:\mods\ntsc-u</Path>
+					<Path>F:\mods\ntsc-u</Path>
+					<Path>G:\mods\ntsc-u</Path>
+				</List>
+			
+				<List Text="NTSC-J (Asia) Mods" Auto="On" Protected="On" Sort="On">
+					<Path>E:\Mods\NTSC-J</Path>
+					<Path>F:\Mods\NTSC-J</Path>
+					<Path>G:\Mods\NTSC-J</Path>
+					<Path>E:\mods\ntsc-j</Path>
+					<Path>F:\mods\ntsc-j</Path>
+					<Path>G:\mods\ntsc-j</Path>
+				</List>
+				
+				<List Text="PAL (Europe) Mods" Auto="On" Protected="On" Sort="On">
+					<Path>E:\Mods\PAL</Path>
+					<Path>F:\Mods\PAL</Path>
+					<Path>G:\Mods\PAL</Path>
+					<Path>E:\mods\pal</Path>
+					<Path>F:\mods\pal</Path>
+					<Path>G:\mods\pal</Path>
+				</List>
+
+				<Path>E:\Mods</Path>
+				<Path>F:\Mods</Path>
+				<Path>G:\Mods</Path>
+				<Path>E:\mods</Path>
+				<Path>F:\mods</Path>
+				<Path>G:\mods</Path>
+			</List>
+			
+			<List Text="Unreleased Games" Auto="On" Protected="On" Sort="Off">
+				<List Text="NTSC-U (Americas) Games" Auto="On" Protected="On" Sort="On">
+					<Path>E:\Unreleased-Games\NTSC-U</Path>
+					<Path>F:\Unreleased-Games\NTSC-U</Path>
+					<Path>G:\Unreleased-Games\NTSC-U</Path>
+					<Path>E:\unreleased-games\ntsc-u</Path>
+					<Path>F:\unreleased-games\ntsc-u</Path>
+					<Path>G:\unreleased-games\ntsc-u</Path>
+				</List>
+			
+				<List Text="NTSC-J (Asia) Games" Auto="On" Protected="On" Sort="On">
+					<Path>E:\Unreleased-Games\NTSC-J</Path>
+					<Path>F:\Unreleased-Games\NTSC-J</Path>
+					<Path>G:\Unreleased-Games\NTSC-J</Path>
+					<Path>E:\unreleased-games\ntsc-j</Path>
+					<Path>F:\unreleased-games\ntsc-j</Path>
+					<Path>G:\unreleased-games\ntsc-j</Path>
+				</List>
+				
+				<List Text="PAL (Europe) Games" Auto="On" Protected="On" Sort="On">
+					<Path>E:\Unreleased-Games\PAL</Path>
+					<Path>F:\Unreleased-Games\PAL</Path>
+					<Path>G:\Unreleased-Games\PAL</Path>
+					<Path>E:\unreleased-games\pal</Path>
+					<Path>F:\unreleased-games\pal</Path>
+					<Path>G:\unreleased-games\pal</Path>
+				</List>
+
+				<Path>E:\Unreleased-Games</Path>
+				<Path>F:\Unreleased-Games</Path>
+				<Path>G:\Unreleased-Games</Path>
+				<Path>E:\unreleased-games</Path>
+				<Path>F:\unreleased-games</Path>
+				<Path>G:\unreleased-games</Path>
+			</List>
+			
+			<Path>E:\Retail-Games</Path>
+			<Path>F:\Retail-Games</Path>
+			<Path>G:\Retail-Games</Path>
+			<Path>E:\retail-games</Path>
+			<Path>F:\retail-games</Path>
+			<Path>G:\retail-games</Path>
+		</List>
+		
+		<List Text="Media Players" Auto="On" Protected="On" Sort="On">
+			<Path>E:\Media-Players</Path>
+			<Path>F:\Media-Players</Path>
+			<Path>G:\Media-Players</Path>
+			<Path>E:\media-players</Path>
+			<Path>F:\media-players</Path>
+			<Path>G:\media-players</Path>
+		</List>
+		
+		<List Text="Operating Systems" Auto="On" Password="Xbox" Protected="On" Sort="On">
+			<Path>E:\Operating-Systems</Path>
+			<Path>F:\Operating-Systems</Path>
+			<Path>G:\Operating-Systems</Path>
+			<Path>E:\operating-systems</Path>
+			<Path>F:\operating-systems</Path>
+			<Path>G:\operating-systems</Path>
+		</List>
+		
+		<List Text="System Tools" Auto="On" Protected="On" Sort="On">		
+			<List Text="CD/DVD Tools" Auto="On" Protected="On" Sort="On">
+				<Path>E:\Disc-Tools</Path>
+				<Path>F:\Disc-Tools</Path>
+				<Path>G:\Disc-Tools</Path>
+				<Path>E:\disc-tools</Path>
+				<Path>F:\disc-tools</Path>
+				<Path>G:\disc-tools</Path>
+			</List>		
+
+			<List Text="Diagnostic Tools" Auto="On" Password="Xbox" Protected="On" Sort="On">
+				<Path>E:\Diagnostic-Tools</Path>
+				<Path>F:\Diagnostic-Tools</Path>
+				<Path>G:\Diagnostic-Tools</Path>
+				<Path>E:\diagnostic-tools</Path>
+				<Path>F:\diagnostic-tools</Path>
+				<Path>G:\diagnostic-tools</Path>
+			</List>			
+			
+			<List Text="Hard Disk Tools" Auto="On" Password="Xbox" Protected="On" Sort="On">
+				<Path>E:\Disk-Tools</Path>
+				<Path>F:\Disk-Tools</Path>
+				<Path>G:\Disk-Tools</Path>
+				<Path>E:\disk-tools</Path>
+				<Path>F:\disk-tools</Path>
+				<Path>G:\disk-tools</Path>
+			</List>
+			
+			<Item Action="TextEditor" Protected="On">Text Editor</Item>
+		</List>
+		
+		<List Text="UnleashX System Settings" Auto="On" Protected="On" Sort="Off">
+			<Item Action="Settings" Protected="On">Settings Menu</Item>	
+			<Item Action="SavesManager" Protected="On">XBOX Game Save Manager</Item>
+			
+			<List Text="CD/DVD Menu" Auto="On" Protected="On" Sort="Off">
+				<Item Action="TrayOpen" Protected="On">Open CD/DVD Tray</Item>
+				<Item Action="TrayClose" Protected="On">Close CD/DVD Tray</Item>
+				<Item Action="CopyDVD" Protected="On">Copy CD/DVD to Hard Disk</Item>
+			</List>
+
+			<List Batch="True" Protected="On" Sort="Off" Text="Clear Hard Disk Cache">
+				<Item Action="AskUser" Arg1="Clear Cache">Clear Hard Disk cache?</Item>
+				<Item Action="Copy" Arg1="E:\." Arg2="E:\CACHE" />
+				<Item Action="Delete" Arg1="E:\CACHE" />
+				<Item Action="Copy" Arg1="E:\." Arg2="E:\CACHE" />
+				<Item Action="Format" Arg1="X:\" />
+				<Item Action="Format" Arg1="Y:\" />
+				<Item Action="Format" Arg1="Z:\" />
+				<Item Action="MessageBox" Arg1="Complete">The disk cache has been cleared.</Item>
+			</List>
+
+			<Item Action="FileManager" Password="Xbox" Protected="On">File Manager</Item>						
+		
+			<List text="Hard Disk Backup Menu" Auto="On" Protected="On" Sort="off">
+				<item Action="Copy" Arg1="D:\C_root" Arg2="C:\">Backup C: to CD/DVD</Item>
+				<item Action="Copy" Arg1="D:\TDATA_folder" Arg2="E:\TDATA">Backup TDATA to CD/DVD</Item>
+				<item Action="Copy" Arg1="D:\UDATA_folder" Arg2="E:\UDATA">Backup UDATA to CD/DVD</Item>
+				<item Action="Copy" Arg1="F:\C_root" Arg2="C:\">Backup C: to F:</Item>
+				<item Action="Copy" Arg1="F:\TDATA_folder" Arg2="E:\TDATA">Backup TDATA to F:</Item>
+				<item Action="Copy" Arg1="F:\UDATA_folder" Arg2="E:\UDATA">Backup UDATA to F:</Item>
+			</List>
+			
+			<List Text="Hard Disk Format Menu" Auto="On" Password="Xbox" Protected="On" Sort="Off">
+				<List Text="Format C:" Batch="True" Protected="On" Sort="Off">
+					<Item Action="AskUser" Arg1="Format">Confirm Format of C:\ ?</Item>
+					<Item Action="MessageBox" Arg1="Format">To format, press OK.</Item>
+					<Item Action="Format" Arg1="C:\">Format C:</Item>
+				</List>
+
+				<List Text="Format E:" Batch="True" Protected="On" Sort="Off">
+					<Item Action="AskUser" Arg1="Format">Are you sure?</Item>
+					<Item Action="MessageBox" Arg1="Format">To format, press OK.</Item>
+					<Item Action="Format" Arg1="E:\">Format E:</Item>
+				</List>
+
+				<List Text="Format F:" Batch="True" Protected="On" Sort="Off"">
+					<Item Action="AskUser" Arg1="Format">Are you sure?</Item>
+					<Item Action="MessageBox" Arg1="Format">To format, press OK.</Item>
+					<Item Action="Format" Arg1="F:\">Format F:</Item>
+				</List>
+
+				<List Text="Format G:" Batch="True" Protected="On" Sort="Off">
+					<Item Action="AskUser" Arg1="Format">Are you sure?</Item>
+					<Item Action="MessageBox" Arg1="Format">To format, press OK.</Item>
+					<Item Action="Format" Arg1="G:\">Format G:</Item>
+				</List>
+			</List>
+			
+			<List Text="Network Menu" Auto="On" Protected="On" Sort="Off">
+				<Item Action="FTPStart" Protected="On">Start FTP Server</Item>
+				<Item Action="FTPStop" Protected="On">Stop FTP Server</Item>
+				<Item Action="FTPReset" Protected="On">Restart FTP Server</Item>
+				<Item Action="NETReset" Protected="On">Restart Network</Item>
+			</List>	
+
+			<Item Action="Skins" Protected="On">UnleashX Skins Menu</Item>
+
+			<List Text="Xecuter In-Game-Reset Settings" Auto="On" Protected="On" Sort="Off">
+				<item Action="X2IGR_ON" Protected="On">Enable In-Game Reset</Item>
+				<item Action="X2IGR_OFF" Protected="On">Disable In-Game Reset</Item>
+			</List>
+		</List>
+
+		<Item Action="Reboot" Protected="On">Reboot XBOX</Item>
+		<Item Action="Shutdown" Protected="On">Shutdown XBOX</Item>	
+	</Menu>
+</UnleashX>
