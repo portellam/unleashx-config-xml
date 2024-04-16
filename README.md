@@ -1,10 +1,10 @@
-# unleashx-config-xml
+# xbox-dashboard-config
 ## Table of Contents
 - [1. About](#1_About)
 - [2. Softmod Guide](#2-Softmod-Guide)
 - [3. `config.xml`](#3-`config.xml`)
 - [4. Directories](#4-Directories)
-- [5. Power Management](#5-Power-Management)
+- [5. Storage Media](#5-Storage-Media)
 - [6. References](#6-References)
 - [7. Contact](#7-Contact)
 
@@ -12,7 +12,7 @@
 Original Xbox softmod guide and custom config files for `UnleashX` and `XBMC` dashboards. Includes insights, recommendations, and common sense backend changes.
 
 ## 2. Softmod Guide
-This guide is not intended to replace existing guides (here), only to be an overview with comments by the Author.
+This guide is not intended to replace existing guides (here), only to be an overview, with comments by the Author.
 
 ### 2.1. Pre-setup
 Lorem ipsum
@@ -25,10 +25,12 @@ Lorem ipsum
 
 ## 3. `config.xml`
 ### 3.1. Customization
-Feel free to modify and take inspiration! You may view the official [UnleashX documentation](https://github.com/rizaumami/unleashx-manual/blob/main/UnleashX.md).
+Feel free to modify and take inspiration!
+
+You may view the official UnleashX documentation [here](https://github.com/rizaumami/unleashx-manual/blob/main/UnleashX.md).
 
 ### 3.2. Default folder layouts are frustrating
-The default behavior of UnleashX does not have the ability to set a scan depth for folders. This is unfortunate. `XBMC` appears to also have this inability.
+The default behavior of UnleashX does not have the ability to set a scan depth for folders. This is unfortunate. XBMC appears to also have this inability.
 
 Given common sense and FATX file system limitations, an organized user may feel the existing menu layouts and Rocky5 recommended folder schemes to be inadequate. Well, UnleashX was meant to be customized after-all. The Xbox softmod scene has plentiful amounts of software to boot (here). The number of Xbox retail games that exist will exceed the folder limitations defined in FATX (however, you may run out of partition space first). Let alone complete ROM sets with thousands of titles per console (or generation).
 
